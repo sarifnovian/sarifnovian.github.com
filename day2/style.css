@@ -67,6 +67,10 @@ p {
     float: left;
 }
 
+#tanggal {
+    text-align: right;
+}
+
 table {
     background: #FFFFFF;
     width: 100%;
