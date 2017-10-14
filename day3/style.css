@@ -1,0 +1,88 @@
+body {
+    background: turquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin: 10px auto;
+    padding: 0;
+}
+
+#menu li {
+    background: linear-gradient(#687587, #404853);
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#menu li a {
+    border-left: 1px solid rgba(0, 0, 0, 2);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+#menu li a:hover {
+    background: #454d59;
+    color: #d0d2d5;
+}
+
+hr  {
+    clear: both;
+}
+.kelas {
+    text-align: center;
+    height: 20px;
+    width: 300px;
+    color: red;
+}
+
+p {
+    font-size: 14px;
+}
+
+.uk-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.uk-align-medium-left {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#tanggal {
+    text-align: right;
+}
+
+table {
+    background: #FFFFFF;
+    width: 100%;
+    border-color: #080000;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
