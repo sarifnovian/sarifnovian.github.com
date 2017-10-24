@@ -4,6 +4,11 @@ body {
     color: black;
 }
 
+header{
+    background-image: url(img/headerimg.png)
+    background-size: cover;
+}
+
 .logo {
     float: left;
 }
